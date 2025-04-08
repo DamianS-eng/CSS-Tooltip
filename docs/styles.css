@@ -24,7 +24,10 @@ menu li {
   position: absolute;
   transition: opacity var(--time) ease-in-out;
 }
-.tooltip .focused {
+.tooltip .focused,
+.tooltip:hover,
+menu li:hover + .tooltip, 
+menu li:focus-within + .tooltip {
   opacity: 1;
 }
 
