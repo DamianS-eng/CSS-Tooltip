@@ -30,7 +30,7 @@ window.onload = function() {
       insertNav.href = n.link;
       insertNav.appendChild(liEle);
       insertNav.appendChild(tooltip);
-      navList.appendChild(insertNav);
+      menuEle.appendChild(insertNav);
     });
   }
 };
