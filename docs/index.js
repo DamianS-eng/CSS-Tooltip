@@ -22,7 +22,7 @@ window.onload = function() {
   if(menuEle && navList) {
     navList.forEach((n) => {
       const insertNav = document.createElement("a");
-      const liEle = document.createElemtent("li");
+      const liEle = document.createElement("li");
       const tooltip = document.createElement("span");
       tooltip.classList.add('tooltip');
       tooltip.innerHTML = n.tip;
