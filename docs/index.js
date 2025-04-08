@@ -28,8 +28,8 @@ window.onload = function() {
       tooltip.innerHTML = n.tip;
       liEle.innerHTML = n.place;
       insertNav.href = n.link;
+      liEle.appendChild(tooltip);
       insertNav.appendChild(liEle);
-      insertNav.appendChild(tooltip);
       menuEle.appendChild(insertNav);
     });
   }
