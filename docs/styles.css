@@ -26,11 +26,10 @@ menu li {
 }
 .tooltip .focused,
 .tooltip:hover,
-menu li:hover + .tooltip, 
-menu li:focus-within + .tooltip {
+menu li:hover .tooltip, 
+menu a:focus-within > li .tooltip {
   opacity: 1;
 }
-
 @media(prefers-color-scheme: dark) {
   :root {
     --clr-txt: white;
